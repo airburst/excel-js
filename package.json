@@ -1,23 +1,24 @@
 {
-    "name": "excel-js",
-    "version": "1.0.0",
-    "description": "JavaScript runtime for Excel formulae",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "Mark Fairhurst",
-    "license": "ISC",
-    "dependencies": {
-        "angularjs": "0.0.1",
-        "bootstrap": "^3.3.5",
-        "functionfoundry": "^0.6.13"
-    },
-    "devDependencies": {
-        "babelify": "^6.3.0",
-        "browserify": "^11.2.0",
-        "fs": "0.0.2",
-        "gulp": "^3.9.0",
-        "vinyl-source-stream": "^1.1.0"
-    }
+  "name": "excel-js",
+  "version": "1.0.0",
+  "description": "JavaScript runtime for Excel formulae",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Fairhurst",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "formulafoundry": "^0.1.0",
+    "functionfoundry": "^0.9.13"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
+    "fs": "0.0.2",
+    "gulp": "^3.9.1",
+    "vinyl-source-stream": "^1.1.0"
+  }
 }
